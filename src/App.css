@@ -1,0 +1,29 @@
+.App {
+  height: 100vh;
+  padding: 10vmin;
+  box-sizing: border-box;
+
+  --text-color: black;
+  --text-color-secondary: white;
+
+  --color-primary: #6200ee;
+  --color-primary-dark: #3700b3;
+
+  --button-background-color: var(--color-primary);
+  --button-background-color-selected: var(--color-primary-dark);
+  --button-text-color: var(--text-color-secondary);
+  --button-padding: 1rem;
+  --button-margin: 1rem 0.5rem;
+  --button-width: 100px;
+
+  --wizard-background-color-selected: var(--color-primary-dark);
+  --wizard-text-color-selected: var(--text-color-secondary);
+  --wizard-step-padding: 1rem;
+  --wizard-step-number-size: 2rem;
+  --wizard-step-title-padding: var(--wizard-step-padding);
+  --wizard-step-title-max-width: 150px;
+}
+
+.App * {
+  font-size: inherit;
+}

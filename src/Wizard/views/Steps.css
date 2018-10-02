@@ -1,0 +1,14 @@
+.Wizard .Steps {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+}
+
+.Wizard .Steps .Step:last-of-type {
+  flex-grow: 0;
+}
+
+.Wizard .Steps .Step:last-of-type .Line {
+  max-width: 0;
+}

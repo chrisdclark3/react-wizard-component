@@ -1,0 +1,4 @@
+.Wizard .Content {
+  flex-grow: 1;
+  padding: var(--wizard-step-padding);
+}

@@ -1,0 +1,41 @@
+.Wizard .Steps .Step {
+  align-items: center;
+  display: flex;
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-direction: row;
+  font-weight: bold;
+  justify-content: flex-start;
+}
+
+.Wizard .Steps .Step .Title {
+  padding-left: var(--wizard-step-title-padding);
+  max-width: var(--wizard-step-title-max-width);
+}
+
+.Wizard .Steps .Step .Number {
+  border: 2px solid var(--text-color);
+  border-radius: 50%;
+  color: var(--text-color);
+  flex-shrink: 0;
+  height: var(--wizard-step-number-size);
+  line-height: var(--wizard-step-number-size);
+  text-align: center;
+  width: var(--wizard-step-number-size);
+}
+
+.Wizard .Steps .Step.Selected .Number {
+  background-color: var(--wizard-background-color-selected);
+  color: var(--wizard-text-color-selected);
+}
+
+.Wizard .Steps .Step.Selected .Title {
+  color: var(--wizard-background-color-selected);
+}
+
+.Wizard .Steps .Step .Line {
+  background-color: var(--text-color);
+  height: 2px;
+  flex-grow: 1;
+  margin: 0 var(--wizard-step-title-padding);
+}
