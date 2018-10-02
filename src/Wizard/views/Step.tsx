@@ -7,7 +7,6 @@ export interface IStep {
 }
 
 export interface IStepProps extends IStep {
-  currentStepIndex?: number;
   isSelected: boolean;
   id: string;
   index: number;
